@@ -1,4 +1,7 @@
+
 nav {
+    
+    width: 90%;
     padding-right: 100px;
     padding-left: 100px;
 
@@ -9,8 +12,6 @@ nav {
 
     position: fixed;
     top: 40px;
-
-    
 }
 
 #test1 {
@@ -18,26 +19,27 @@ nav {
 }
 
 #test2 {
-    right: 0;
+    background-color: brown;
+
 }
 body {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: #4D4D4D;
 }
 
 
 h2 {
-    font-size: 46px ;
+    font-size: 38px ;
     color: white;
-    text-align: left;
+
     
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 30px;
     color: white;
-    text-align: left;
+
 }
 
 h4 {
@@ -45,8 +47,6 @@ h4 {
     font-size: bold;
 }
 
-
-}
 p {
     font-size: 20px;
 
@@ -54,22 +54,23 @@ p {
 
 
 #header {
-    min-height: 1000px;
-    background-image: url("background.png");
-    background-position: left;
+    height: 700px;
+    background-image: url("background.png") ;
     background-size: cover;
-}
-
-#text-header {
-    max-width: 800px;
-    padding-left: 250px;
-    padding-top: 350px;
-    
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+}
 
+.text-header {
+    text-align: center;
+    width: 500px;
+    margin-left: 150px;
+
+
+    text-align: center;
+    
 }
 
 .container {
@@ -78,13 +79,12 @@ p {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
-
+    width: 500px;
 }
 
 
 .paragraph {
-    max-width: 500px;
+    /* width: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ p {
 }
 
 .image {
-    max-height: 70%;
+    width: 150px;
 }
 
 
